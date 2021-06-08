@@ -1,4 +1,5 @@
 # Serializer-Deserializer
+![SerDes Block Diagram](https://user-images.githubusercontent.com/34355989/121235730-2b609700-c863-11eb-905d-a186cc0347bb.jpg)
 
 - A simple implementation of a SerDes module, typically used in high-speed communication protocols like PCIe, USB, DisplayPort, Gigabit Ethernet 
 
