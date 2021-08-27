@@ -63,7 +63,7 @@ module encoder_8b_10b(
                 default: temp_6b <= 6'b000000;
                 endcase 
             end
-            else data_10b_out <= {temp_6b, temp_4b};
+            else data_10b_out <= {temp_4b, temp_6b};
         end
     end 
 endmodule
