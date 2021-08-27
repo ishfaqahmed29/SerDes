@@ -1,7 +1,9 @@
 # Serializer-Deserializer
 ![SerDes Block Diagram](https://user-images.githubusercontent.com/34355989/121235730-2b609700-c863-11eb-905d-a186cc0347bb.jpg)
 
-- A simple implementation of a SerDes module, typically used in high-speed communication protocols like PCIe, USB, DisplayPort, Gigabit Ethernet 
+- A simple implementation of a SerDes module, typically used in high-speed communication protocols like PCIe, USB, DisplayPort, Gigabit Ethernet
+
+- RTL design contains basic modules like Latches, Encoder, Decoder, Shift Registers -> Parallel-In-Serial-Out, Serial-In-Parallel-Out
 
 - Serializer latches onto 8-bit Parallel data input, encodes to 10-bit, and converts to Serial bits
 
@@ -9,4 +11,4 @@
 
 - Followed [specifications](http://www.latticesemi.com/products/designsoftwareandip/intellectualproperty/referencedesigns/referencedesigns01/8b10bencoderdecoder) to implement 3b/4b & 5b/6b encoding schemes and maintain a DC-balance data stream
 
-- RTL design contains basic modules like Latches, Encoder, Decoder, Shift Registers -> Parallel-In-Serial-Out, Serial-In-Parallel-Out
+![8b-10b](https://user-images.githubusercontent.com/34355989/131135737-fb6100c9-c64b-45e6-8f66-3da37a93afa2.png)
