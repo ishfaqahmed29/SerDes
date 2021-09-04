@@ -11,4 +11,4 @@ A simple implementation of a SerDes module, typically used in high-speed communi
 
 - Followed [specifications](http://www.latticesemi.com/products/designsoftwareandip/intellectualproperty/referencedesigns/referencedesigns01/8b10bencoderdecoder) to implement 3b/4b & 5b/6b encoding schemes and maintain a DC-balance data stream
 
-![8b-10b](https://user-images.githubusercontent.com/34355989/131135737-fb6100c9-c64b-45e6-8f66-3da37a93afa2.png)
+![8b_10b Encoding](https://user-images.githubusercontent.com/34355989/132104163-17ad4b67-e369-4525-8d83-15a4f6f04605.jpg)
