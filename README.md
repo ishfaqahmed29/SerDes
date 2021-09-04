@@ -1,9 +1,9 @@
 # Serializer-Deserializer
-![SerDes Block Diagram]![SerDes Block Diagram](https://user-images.githubusercontent.com/34355989/132103773-f86af8ed-0689-4c12-b618-52ed0ebe4233.jpg)
+A simple implementation of a SerDes module, typically used in high-speed communication protocols like PCIe, DisplayPort, Gigabit Ethernet, USB etc.
 
-- A simple implementation of a SerDes module, typically used in high-speed communication protocols like PCIe, USB, DisplayPort, Gigabit Ethernet
+![SerDes Block Diagram](https://user-images.githubusercontent.com/34355989/132103773-f86af8ed-0689-4c12-b618-52ed0ebe4233.jpg)
 
-- RTL design contains basic modules like Latches, Encoder, Decoder, Shift Registers -> Parallel-In-Serial-Out, Serial-In-Parallel-Out
+- RTL Design has basic modules like Latches, Encoder, Decoder, Shift Registers -> Parallel-In-Serial-Out, Serial-In-Parallel-Out
 
 - Serializer latches onto 8-bit Parallel data input, encodes to 10-bit, and converts to Serial bits
 
